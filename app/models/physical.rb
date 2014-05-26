@@ -1,0 +1,2 @@
+class Physical < Metric
+end

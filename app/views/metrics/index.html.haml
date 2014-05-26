@@ -1,0 +1,8 @@
+.container
+
+  - @metrics.each do |metric|
+    %p
+      = metric.type
+      = metric.rating
+      = metric.note
+      = metric.created_at
